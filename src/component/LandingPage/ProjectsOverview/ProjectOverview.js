@@ -36,7 +36,11 @@ const ProjectOverview = () => {
                         ensuring the ability to provide client satisfaction on every project</p>
               </div>
 
-                <div className='project-image'>
+                <div 
+                data-aos="fade-left"
+                data-aos-easing="linear"
+                data-aos-duration="700"
+                className='project-image'>
                     <img src={Builders} alt={Builders} />
                 </div>
              </section>
