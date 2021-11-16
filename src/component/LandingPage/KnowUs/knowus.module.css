@@ -1,0 +1,42 @@
+.know-us-container {
+  background: #f7fcff;
+  padding: 3em 0;
+}
+
+.know-us-container section {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5em;
+}
+
+.know-us-container .text {
+  flex: 1;
+}
+
+.know-us-container .text h2 {
+  color: #1597e5;
+  margin-bottom: 0.4em;
+}
+
+.know-us-container .text p {
+  color: #000;
+  width: 80%;
+}
+
+.know-us-container .stats {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.know-us-container .stats .stats-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.know-us-container .stats .stats-data h3 {
+  font-size: 2em;
+  color: #1597e5;
+}

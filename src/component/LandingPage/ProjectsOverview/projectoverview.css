@@ -1,0 +1,58 @@
+.project-overview {
+  padding: 5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-overview .header {
+  margin: 3em 0;
+  text-align: center;
+}
+
+.project-overview .header h2 {
+  font-size: 2.5em;
+  color: #1597e5;
+  margin-bottom: 0.5em;
+}
+
+.project-overview .header h3 {
+  font-size: 1.8em;
+  margin-bottom: 0.5em;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2em 0;
+}
+
+section .project-image {
+  flex: 1;
+  width: 50%;
+  height: 350px;
+  margin-right: 2em;
+  border: 3px solid #cfecfd;
+  border-radius: 5px;
+}
+
+section .project-image img {
+  width: 100%;
+  height: 100%;
+}
+
+section .section-text {
+  flex: 1;
+  margin-right: 2em;
+}
+
+section .section-text h3 {
+  font-size: 1.6em;
+}
+
+section .section-text p {
+  font-size: 1.1em;
+  line-height: 23px;
+}
