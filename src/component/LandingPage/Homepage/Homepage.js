@@ -33,7 +33,7 @@ const Homepage = () => {
                   <br />
                   <Link to='/portfolio' className={styles['link']}>
                         <button 
-                         data-aos="fade-up"
+                         data-aos="fade-right"
                          data-aos-easing="linear"
                          data-aos-duration="700"
                         > <p>Explore our work</p>  <BsArrowRight /> </button> 

@@ -1,9 +1,8 @@
 import styled from 'styled-components'
 import { Link as LinkR } from 'react-router-dom';
-import {Link as LinkS } from 'react-scroll'
+// import {Link as LinkS } from 'react-scroll'
 import {FaTimes} from "react-icons/fa";
 import { FaBars } from "react-icons/fa";
-// import { Link as LinkR } from 'react-router-dom'
 
 
 export const NavContainer = styled.div`
@@ -29,11 +28,12 @@ export const NavLogo = styled(LinkR)`
 margin-left: 2em;
 display: flex;
 align-items: center;
-font-size: 2em;
+font-size: 1.7em;
 text-decoration: none;
 color: #fff;
 font-weight: 550;
-// opacity: .8;
+text-transform: uppercase;
+opacity: .95;
 cursor: pointer;
 
 @media screen and (max-width: 768px){
@@ -47,19 +47,23 @@ cursor: pointer;
 `
 
 export const FaIcon = styled(FaBars)`
-    color: #1597E5;
+    color: #fff;
+
+    &:hover{
+        color: #193498
+    }
 
  `
 
 export const MobileIcon = styled.div`
     display: none;
 
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 968px){
         display: block;
         margin-right: 1em;
         font-size: 1.8em;
         cursor: pointer;
-        color: #1597E5
+        color: #fff;
 
     }
 `
@@ -73,7 +77,7 @@ export const NavMenu = styled.ul`
    
 
 
-    @media screen and (max-width: 768px){
+    @media screen and (max-width: 968px){
         display: none;
     }
 `
@@ -109,7 +113,7 @@ export const SidebarContainer = styled.aside`
     z-index: 999;
     width:100%;
     height: 100%;
-    background: #333;
+    background: #00000f;
     display: grid;
     align-items: center;
     top: 0;
@@ -120,7 +124,11 @@ export const SidebarContainer = styled.aside`
 `
 
  export const CloseIcon = styled(FaTimes)`
-    color: #1597E5;
+    color: #fff;
+
+    &:hover{
+        color: #193498
+    }
 
  `
 
@@ -151,7 +159,7 @@ export const SidebarContainer = styled.aside`
  `
 
 
- export const SidebarLink = styled(LinkS)`
+ export const SidebarLink = styled(LinkR)`
     display: flex;
     align-items: center;
     justify-content: center;
@@ -163,7 +171,7 @@ export const SidebarContainer = styled.aside`
     cursor: pointer;
 
     &:hover {
-        color: #1597E5;
+        color: #193498;
         transition: 0.2s ease-in-out;
     }
  `

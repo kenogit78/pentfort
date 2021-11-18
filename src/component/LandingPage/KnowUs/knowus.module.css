@@ -36,11 +36,13 @@
   justify-content: space-around;
   align-items: center;
 }
+
 .know-us-container .stats .stats-data {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 1.5em;
 }
 
 .know-us-container .stats .stats-data .count {
@@ -50,4 +52,34 @@
 }
 .know-us-container .stats .stats-data p {
   font-size: 1.3em;
+}
+
+@media screen and (max-width: 969px) {
+  .know-us-container section {
+    padding: 0 2em;
+  }
+
+  .know-us-container .text h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
+  }
+
+  .know-us-container .text p {
+    margin: 0;
+    font-size: 1.1em;
+    line-height: 1.3em;
+  }
+
+  .know-us-container .stats {
+    padding: 2em;
+    flex-direction: column;
+  }
+
+  .know-us-container .stats .stats-data .count {
+    font-size: 3.5em;
+  }
+
+  .know-us-container .stats .stats-data p {
+    font-size: 1.1em;
+  }
 }
