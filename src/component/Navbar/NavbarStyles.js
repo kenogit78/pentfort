@@ -15,7 +15,7 @@ justify-content: space-between;
 align-items: center;
 padding: 2em;
 position: sticky;
-background-color: #000;
+background-color: #193498;
 top: 0;
 // box-shadow: -8px 2px 16px 2px rgba(49, 47, 47, 0.5);
 
@@ -31,7 +31,7 @@ display: flex;
 align-items: center;
 font-size: 2em;
 text-decoration: none;
-color: #1597E5;
+color: #fff;
 font-weight: 550;
 // opacity: .8;
 cursor: pointer;

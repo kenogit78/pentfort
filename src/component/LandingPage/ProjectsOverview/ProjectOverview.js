@@ -9,8 +9,17 @@ const ProjectOverview = () => {
         <div className='project-overview'>
 
             <div className='header'>
-                <h2>We are committed to excellence</h2> 
-                <h3> Our results speak volume</h3>
+                <h2
+                 data-aos="fade-up"
+                 data-aos-easing="linear"
+                 data-aos-duration="500"
+                >We are committed to excellence</h2> 
+                <h3
+                 data-aos="fade-up"
+                 data-aos-easing="linear"
+                 data-aos-duration="600"
+                > Our results speak volume</h3>
+                
            </div>
 
           <section >

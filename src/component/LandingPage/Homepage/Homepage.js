@@ -32,7 +32,11 @@ const Homepage = () => {
                   <h3>CONSTRUCTION</h3>
                   <br />
                   <Link to='/portfolio' className={styles['link']}>
-                        <button> <p>Explore our work</p>  <BsArrowRight /> </button> 
+                        <button 
+                         data-aos="fade-up"
+                         data-aos-easing="linear"
+                         data-aos-duration="700"
+                        > <p>Explore our work</p>  <BsArrowRight /> </button> 
                   </Link>
                 </div>
                   

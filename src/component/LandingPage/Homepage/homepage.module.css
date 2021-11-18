@@ -116,9 +116,9 @@
 
 .text button {
   color: #fff;
-  background: #1597e5;
+  background: transparent;
   padding: 0.8em;
-  border: none;
+  border: 2px solid #fff;
   /* border-radius: 2px; */
   font-size: 1.1em;
   text-align: center;
