@@ -3,38 +3,57 @@
   padding: 3em 0;
 }
 
-.know-us-container section {
+.know-us-container .section-knowus{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  padding: 4em; 
+}
+
+.know-us-container .section-knowus .content{
+  flex: 1;
+  display: flex;
+ flex-direction: column;
   justify-content: center;
-  padding: 0 5em;
+  /* padding: 0 5em; */
   align-items: center;
 }
 
 .know-us-container .text {
-  text-align: center;
+  flex: 1;
+
 }
+
+
 
 .know-us-container .text h2 {
-  font-size: 3em;
+  font-size: 2.5em;
   color: #193498;
   margin-bottom: 0.4em;
+  text-transform: uppercase;
 }
 
-.know-us-container .text p {
+.know-us-container .block {
+  background: #193498;
+  margin-top: 2em;
+  width: 15%;
+  height: 8px;
+
+}
+
+.know-us-container .content p {
   color: #000;
-  margin: 1em 3em;
-  font-size: 1.3em;
-  line-height: 1.3em;
+  /* margin: 1em 3em; */
+  font-size: 1.1em;
+  line-height: 1.5em;
   /* width: 80%; */
 }
 
 .know-us-container .stats {
-  padding: 2em;
   display: flex;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  margin: 3em 0;
 }
 
 .know-us-container .stats .stats-data {
@@ -46,21 +65,25 @@
 }
 
 .know-us-container .stats .stats-data .count {
-  font-size: 4.5em;
+  font-size: 4em;
+  line-height: 1.5em;
   color: #193498;
   font-weight: bold;
 }
 .know-us-container .stats .stats-data p {
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 
-@media screen and (max-width: 969px) {
-  .know-us-container section {
+@media screen and (max-width: 1028px) {
+  .know-us-container .section-knowus {
     padding: 0 2em;
+    flex-direction:column;
   }
 
+  
+
   .know-us-container .text h2 {
-    font-size: 2.5em;
+    font-size: 2em;
     margin-bottom: 0.2em;
   }
 
@@ -70,15 +93,40 @@
     line-height: 1.3em;
   }
 
+  .know-us-container .section-knowus .content{
+    margin-top: 1.5em;
+  }
+  
+
   .know-us-container .stats {
-    padding: 2em;
     flex-direction: column;
+    margin: 1em 0;
+    
   }
 
   .know-us-container .stats .stats-data .count {
     font-size: 3.5em;
   }
 
+  .know-us-container .stats .stats-data p {
+    font-size: 1.1em;
+  }
+}
+
+@media screen and (max-width: 568px){
+  .know-us-container .stats {
+    margin: 1em 0;
+  }
+  
+  .know-us-container .stats .stats-data {
+    margin-bottom: 1em;
+  }
+  
+  .know-us-container .stats .stats-data .count {
+    font-size: 3em;
+    line-height: 1.2em;
+    
+  }
   .know-us-container .stats .stats-data p {
     font-size: 1.1em;
   }
