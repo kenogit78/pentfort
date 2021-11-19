@@ -27,9 +27,9 @@ const FeaturedWork = () => {
                     
                 </div>
 
-                <div>
+                {/* <div>
                     <img src={House1} alt={House1} />
-                </div>
+                </div> */}
 
             </section>
         </div>
