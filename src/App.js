@@ -38,7 +38,7 @@ function App() {
 
     setTimeout(()=>{
       setLoading(false)
-    }, 5000)
+    }, 2500)
   }, [])
 
   Aos.init();

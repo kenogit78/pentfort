@@ -10,7 +10,7 @@
 }
 
 .know-us-container .section-knowus .content{
-  flex: 1;
+  flex: 1.2;
   display: flex;
  flex-direction: column;
   justify-content: center;
@@ -104,9 +104,17 @@
     
   }
 
+  .know-us-container .stats .stats-data {
+    margin-bottom: 1em;
+  }
+  
+
   .know-us-container .stats .stats-data .count {
     font-size: 3.5em;
+    line-height: 1.2em;
   }
+
+
 
   .know-us-container .stats .stats-data p {
     font-size: 1.1em;
@@ -120,6 +128,10 @@
   
   .know-us-container .stats .stats-data {
     margin-bottom: 1em;
+  }
+  
+  .know-us-container .section-knowus .content{
+    margin-top: 1em;
   }
   
   .know-us-container .stats .stats-data .count {

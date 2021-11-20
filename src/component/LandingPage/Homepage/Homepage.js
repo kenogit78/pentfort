@@ -1,6 +1,4 @@
 import React from 'react';
-// import About from '../About/About';
-// import Contact from '../Contact/Contact';
 import styles from './homepage.module.css';
 import Video from '../../../assets/videos/buildings.mp4';
 import { BsArrowRight } from 'react-icons/bs';
@@ -11,10 +9,7 @@ import { Link } from 'react-router-dom';
 const Homepage = () => {
     return (
         <div className={styles["container"]}>
-                
-        
-
-            
+ 
             <div className={styles["home-container"]}>
 
             <video 

@@ -1,6 +1,6 @@
 import React from 'react'
 import './featuredwork.css'
-import House1 from '../../../assets/images/residential/house1.jpg'
+// import House1 from '../../../assets/images/residential/house1.jpg'
 
 const FeaturedWork = () => {
     return (
