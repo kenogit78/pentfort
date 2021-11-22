@@ -49,7 +49,11 @@ const AboutUs = () => {
 
                             <h3> Consistent growth over the years </h3>
                             <p>  We figured out early the value of multiple disciplines, 
-                                adding engineering services to architecture as soon as the steel building frame was invented. 
+                                adding engineering services to architecture as soon as the steel building frame was invented.
+
+                                </p>
+
+                                <p> 
                                 We delved into specialty market sectors early, leading to today’s deep well of expertise in fields 
                                 as diverse and complex as academic medical centers and marina design. 
                                 And we have always been at the leading edge of change.
@@ -60,6 +64,10 @@ const AboutUs = () => {
 
                                  Today, the Diamond name reflects our emergence from several talented regional practices to a united, 
                                  award-winning firm practicing around the globe. 
+
+                                 </p>
+
+                                 <p>
                                  And just as we still carry the Diamond name, every member of our team carries a bit of our spirit—an upstart 
                                  eager to strike out and create inspiring places.
                                  </p>

@@ -184,7 +184,7 @@
 
   .section2 .text .text-story p{
     margin-bottom: 1em;
-    font-size: 1.1em;
+    font-size: 1em;
     color: #333;
     line-height: 1.2em;
     margin-right: 2em;
@@ -205,7 +205,8 @@
 
   .section2 .text .text-story .we-do .we-do-content p{
      margin: 0;
-     font-size: 1.5em;
+     font-size: 1.2em;
+     font-weight: bold
   }
 
   .section2 .text .text-story .we-do .we-do-content .icon{
@@ -263,19 +264,18 @@
 
   .section2 .text .text-story h3{
     margin: 0.3em 0;
-    font-size: 1.5em;
+    font-size: 1.8em;
     
   }
 
   .section2 .text .text-story .we-do{
     flex-direction: column;
-    align-items:flex-start;
-   
+    /* align-items:flex-start; */
  }
 
  .section2 .text .text-story .we-do .we-do-content{
   margin-bottom: 1em;
-  align-items: flex-start;
+  /* align-items: flex-start; */
 
 }
   
