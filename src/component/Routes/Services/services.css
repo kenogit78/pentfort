@@ -166,6 +166,12 @@
   /* padding: 1em; */
 }
 
+.service-card-content .text p{
+  
+  color: #333;
+ 
+}
+
 .service-card-content .text button {
   color: #193498;
   font-family: Ubuntu;

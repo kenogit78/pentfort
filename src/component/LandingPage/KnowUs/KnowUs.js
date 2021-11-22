@@ -14,14 +14,14 @@ const KnowUs = () => {
             
                     <h2 
                     data-aos="fade-up"
-                    data-aos-easing="linear"
-                    data-aos-duration="500"
+                    // data-aos-easing="linear"
+                    // data-aos-duration="500"
                     > Interesting facts </h2>
 
                     <div 
                     data-aos="fade-up"
-                    data-aos-easing="linear"
-                    data-aos-duration="700"
+                    // data-aos-easing="linear"
+                    // data-aos-duration="700"
                     className={styles["block"]}></div>
                 
                     
@@ -32,8 +32,8 @@ const KnowUs = () => {
                         <div>
                             <p
                                 data-aos="fade-up"
-                                data-aos-easing="linear"
-                                data-aos-duration="700"
+                                // data-aos-easing="linear"
+                                // data-aos-duration="700"
                                 >Our firm is composed of committed professionals who bring their passion 
                                     and the latest design technologies to bear on innovative and sustainable designs.
                             </p>
