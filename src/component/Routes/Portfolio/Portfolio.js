@@ -1,4 +1,5 @@
 import React from 'react'
+import PortfolioCards from './PortfolioCards'
 import Footer from '../Footer/Footer'
 import servicebg  from '../../../assets/package.jpg'
 
@@ -30,7 +31,7 @@ const Portfolio = () => {
 </div>
 
 
-
+<PortfolioCards />
 
 <Footer />
         </div>

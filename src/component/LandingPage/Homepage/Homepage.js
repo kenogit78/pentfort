@@ -20,7 +20,7 @@ const Homepage = () => {
                 type='video/mp4'
                  > </video>
                 <div className={styles['homepage-overlay']}></div>
-
+          
                 <div className={styles["text"]} >
                   <h1>DESIGN</h1>
                   <h2>ARCHITECTURE</h2>
