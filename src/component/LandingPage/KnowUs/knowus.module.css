@@ -122,6 +122,14 @@
 }
 
 @media screen and (max-width: 568px){
+
+  .know-us-container .block {
+    
+    margin-top: 1em;
+    
+   
+  
+  }
   .know-us-container .stats {
     margin: 1em 0;
   }
