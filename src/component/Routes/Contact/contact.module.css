@@ -1,37 +1,299 @@
-.contact {
-  width: 95vw;
-  margin: 1em;
+.about {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 1em;
-  /* background: rgba(149, 216, 255, 0.05); */
+  /* z-index: 1; */
+  
+  
 }
-
-.contact h1 {
-  font-size: 3.5em;
-}
-
-.contact-content {
+  
+.section1{
+  position: relative;
   display: flex;
-  margin: 2em 0;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  
+}
+.section1 .service-image{
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width:100%;
+  height: 70vh;
+  position: absolute;
+  overflow: hidden;
+  
 }
 
-.profile {
-  padding: 3em 0;
-  width: 40%;
+
+.section1 .service-image img{
+  position: absolute;
+  width:100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.profile img {
-  border-radius: 50%;
-  border: 1px solid #505050;
-  box-shadow: -8px 2px 16px 2px rgba(49, 47, 47, 0.5);
-  height: 80%;
-  width: 75%;
+.section1 .service-image .service-overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #00000f;
+  opacity: 0.5;
+}
+
+
+.section1 .text{
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+
+
+ 
+ 
+}
+
+.section1 .text h1{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: block;
+  transform-origin: left;
+  text-transform: uppercase;
+  transform: scaleX(1);
+  font-size: 3em;
+  margin-bottom: 0.2em;
+  color: #fff;
+  animation: revealTextReverse 1s ease-in-out forwards;
+ 
+}
+
+.section1 .text .block {
+  background: #fff;
+  margin-top: 1em;
+  display:inline-block;
+  width: 25%;
+  height: 8px;
+  text-align: right;
+
+}
+
+.section1 .text h1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  transform-origin: right;
+  animation: revealText 1s ease-in-out forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes revealTextReverse {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes revealText {
+  0% {
+    transform: scaleX(1);
+  }
+  100% {
+    transform: scaleX(0);
+  }
+}
+
+.services-container .text .block {
+  background: #fff;
+  margin-top: 2em;
+  width: 30%;
+  height: 8px;
+
+}
+
+
+.section2{
+  position: relative;
+  display: flex;
+  padding: 4em;
+  align-items: center;
+  justify-content: center;
+  /* height: 70vh; */
+}
+
+.section2 .service-image{
+ flex: 1;
+  height: 120vh;
+ 
+}
+
+.section2 .service-image img{
+ 
+  width:100%;
+  height: 100%;
+  /* object-fit: cover; */
+}
+
+
+
+.section2 .text{
+  flex: 1.5;
+}
+
+
+
+.section2 .text .text-story{
+  margin-bottom: 3em;
+}
+
+.section2 .text .text-story h1,
+.section2 .text .form-content h1
+{
+  display: flex;
+  justify-content: normal;
+  align-items: center;
+  margin-bottom: 14px;
+  font-weight: 700;
+  color: #333;
+  letter-spacing: .1em;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 1.2em
+}
+
+.section2 .text .text-story h1::before,
+.section2 .text .form-content h1{
+  content: "";
+  margin-right: 8px;
+  display: flex;
+  width: 64px;
+  height: 2px;
+  background: #f0a536;
+}
+
+.section2 .text .text-story h3{
+  margin: 1em 0;
+  font-size: 2em;
+  color: #333;
+}
+
+.section2 .text .text-story p{
+  margin-bottom: 1em;
+  font-size: 1em;
+  color: #333;
+  line-height: 1.2em;
+  margin-right: 2em;
+}
+
+.section2 .text .text-story .we-do{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.section2 .text .text-story .we-do .we-do-content{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.section2 .text .text-story .we-do .we-do-content p{
+   margin: 0;
+   font-size: 1.2em;
+   font-weight: bold
+}
+
+.section2 .text .text-story .we-do .we-do-content .icon{
+   font-size: 2.5em;
+   text-align: center;
+   margin: 0.3em;
+   color: #193498
+}
+
+.section3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.section3 .image{
+  width: 300px;
+  height: 350px;
+  
+}
+
+.section3 .image img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%
+}
+
+
+@media screen and (max-width:768px){
+
+  .section2{
+  
+    padding: 2em;
+    
+  }
+
+    
+.section1 .text h1{
+ 
+  font-size: 2.5em;
+ 
+}
+
+.section2 .service-image{
+  display: none
+ }
+ 
+ .section2 .text .text-story p{
+ 
+  margin-right:0;
+}
+
+
+.section2 .text .text-story h3{
+  margin: 0.3em 0;
+  font-size: 1.8em;
+  
+}
+
+.section2 .text .text-story .we-do{
+  flex-direction: column;
+  /* align-items:flex-start; */
+}
+
+.section2 .text .text-story .we-do .we-do-content{
+margin-bottom: 1em;
+/* align-items: flex-start; */
+
+}
+
+/* .section2 .text .text-story .we-do .we-do-content .icon{
+
+text-align: left;
+
+} */
+
+
 }
 
 .form-content {
-  width: 60%;
-  padding: 1.5em;
+  width: 100%;
+  /* padding: 1.5em; */
 }
 
 form {
@@ -40,8 +302,26 @@ form {
   margin: 1em 0;
 }
 
-.form-content h3 {
-  margin-bottom: 0.5em;
+.form-content h1::before {
+  content: "";
+  margin-right: 8px;
+  display: flex;
+  width: 64px;
+  height: 2px;
+  background: #f0a536;
+}
+
+.form-content h1 {
+  display: flex;
+  justify-content: normal;
+  align-items: center;
+  margin-bottom: 14px;
+  font-weight: 700;
+  color: #333;
+  letter-spacing: .1em;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 1.2em
 }
 
 form input {
@@ -58,26 +338,18 @@ form textarea {
   margin: 1em 0;
   padding: 1em;
   width: 80%;
+  font-family: Ubuntu;
   background: #ededed;
   border: 0;
   border-radius: 0.5em;
 }
 
-form button {
-  border: 3px solid;
-  border-radius: 8px;
-  padding: 0.5em;
-  font-size: 1.8em;
-  background: #fff;
-  font-weight: bold;
-  cursor: pointer;
-  width: 80%;
-}
+
 .box {
   position: relative;
   width: 200px;
   height: 60px;
-  background: #1597e5;
+  background: #193498;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -109,7 +381,7 @@ form button {
     }
 } */
 
-.box h3 {
+.box p {
   font-size: 1.2em;
   color: #fff;
   z-index: 10;
@@ -118,7 +390,7 @@ form button {
 @media screen and (max-width: 528px) {
   .contact {
     margin: 0;
-    padding: 2em;
+    /* padding: 2em; */
   }
 
   .contact-content {
@@ -130,7 +402,7 @@ form button {
   }
   .form-content {
     width: 100%;
-    padding: 1em 0;
+    /* padding: 1em 0; */
   }
 
   form {
@@ -147,5 +419,26 @@ form button {
 
   form button {
     width: 100%;
+  }
+
+  .box {
+    position: relative;
+    width: 120px;
+    height: 40px;
+    background: #193498;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    overflow: hidden;
+    border-radius: 1.5px;
+    animation: animate 2s linear infinite;
+  }
+
+  .box p {
+    font-size: 1em;
+  
+    color: #fff;
+    z-index: 10;
   }
 }
