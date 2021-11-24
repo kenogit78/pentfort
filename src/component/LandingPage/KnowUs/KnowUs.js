@@ -1,5 +1,6 @@
 import React from 'react';
-import ImageSlider from './ImageSlider';
+import ImgSlider from './ImgSlider';
+// import ImageSlider from './ImageSlider';
 import styles from './knowus.module.css';
 import CountUp from 'react-countup'
 // import Image from '../../assets/keno.png';
@@ -14,14 +15,14 @@ const KnowUs = () => {
             
                     <h2 
                     data-aos="fade-up"
-                    // data-aos-easing="linear"
-                    // data-aos-duration="500"
+                    data-aos-easing="linear"
+                    data-aos-duration="300"
                     > Interesting facts </h2>
 
                     <div 
                     data-aos="fade-up"
-                    // data-aos-easing="linear"
-                    // data-aos-duration="700"
+                    data-aos-easing="linear"
+                    data-aos-duration="400"
                     className={styles["block"]}></div>
                 
                     
@@ -61,9 +62,9 @@ const KnowUs = () => {
                 </div>
             </section>
 
-           
+           <ImgSlider />
 
-            <ImageSlider />
+            {/* <ImageSlider /> */}
 
         </div>
     )

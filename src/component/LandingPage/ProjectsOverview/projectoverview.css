@@ -4,19 +4,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #00000f;
+  /* background: #00000f; */
 }
 
 .project-overview .header {
   margin: 3em 0;
   width:100%;
-  text-align: right;
+  /* text-align: right; */
   
 }
 
 .project-overview .header h2 {
   font-size: 2.5em;
-  color: #fff;
+  color: #193498;
   margin-bottom: 0.5em;
   text-transform: uppercase;
 }
@@ -28,7 +28,6 @@
   width: 10%;
   height: 8px;
   text-align: right;
-
 }
 
 .section-overview {
@@ -58,13 +57,13 @@
 
 .section-overview .section-text h3 {
   font-size: 1.6em;
-  color: #fff;
+  color: #333;
 }
 
 .section-overview .section-text p {
   font-size: 1.1em;
   line-height: 23px;
-  color: #fff;
+  color: #333;
 }
 
 @media screen and (max-width: 968px) {
@@ -72,10 +71,21 @@
     padding: 2em;
   }
 
+  .project-overview .header {
+    margin: 1em 0;
+    
+  }
+
   .project-overview .header h2 {
     margin-bottom: 0.3em;
     font-size: 2em;
   }
+
+  .project-overview .header .block {
+    margin-top: 0.3em;
+  }
+
+  
 
   .project-overview .header h3 {
     font-size: 1.5em;
@@ -85,7 +95,7 @@
 
   .section-overview {
     flex-direction: column;
-    margin: 2em 0;
+    margin: 1em 0;
   }
 
   .section-overview .project-image {

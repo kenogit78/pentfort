@@ -42,7 +42,7 @@ const settings = {
   lazyLoad: true,
   dots: true,
   speed: 500,
-  slidesToShow: 3,
+  slidesToShow: 2,
   slidesToScroll: 1,
   centerMode: true,
   centerPadding: 0,
