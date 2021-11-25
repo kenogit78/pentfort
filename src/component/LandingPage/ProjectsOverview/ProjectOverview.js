@@ -12,13 +12,13 @@ const ProjectOverview = () => {
                 <h2
                  data-aos="fade-up"
                  data-aos-easing="linear"
-                 data-aos-duration="500"
+                 data-aos-duration="300"
                 >Our Perks </h2> 
 
                     <div 
                     data-aos="fade-up"
                     data-aos-easing="linear"
-                    data-aos-duration="700"
+                    data-aos-duration="400"
                     className="block"></div>
                 
                 
@@ -27,30 +27,30 @@ const ProjectOverview = () => {
           <section className="section-overview" >
               <div className="section-text">
                     <h3 
-                    data-aos="fade-right"
+                    data-aos="fade-up"
                     data-aos-easing="linear"
-                    data-aos-duration="500"
+                    data-aos-duration="400"
                     > An Industry Leader In Sustainable Design </h3>
                     <br />
                     <p
-                    data-aos="fade-right"
+                    data-aos="fade-up"
                     data-aos-easing="linear"
-                    data-aos-duration="600"
+                    data-aos-duration="400"
                     >Our team has extensive experience in a wide variety of architectural projects 
                         and brings a unique perspective to problem solving.</p>
                         <br />
                     <p 
-                    data-aos="fade-right"
+                    data-aos="fade-up"
                     data-aos-easing="linear"
-                    data-aos-duration="700"
+                    data-aos-duration="400"
                     >Possessing a critical balance between field experience, formal education, and technical knowledge, 
                         ensuring the ability to provide client satisfaction on every project</p>
               </div>
 
                 <div 
-                data-aos="fade-left"
+                data-aos="fade-up"
                 data-aos-easing="linear"
-                data-aos-duration="700"
+                data-aos-duration="400"
                 className='project-image'>
                     <img src={Builders} alt={Builders} />
                 </div>
@@ -60,7 +60,7 @@ const ProjectOverview = () => {
           <section className="section-overview">
 
           <div 
-          data-aos="fade-right"
+          data-aos="fade-up"
           data-aos-easing="linear"
           data-aos-duration="700"
           className='project-image'>
@@ -69,22 +69,22 @@ const ProjectOverview = () => {
 
               <div className="section-text">
                     <h3
-                    data-aos="fade-left"
+                    data-aos="fade-up"
                     data-aos-easing="linear"
-                    data-aos-duration="500"
+                    data-aos-duration="400"
                     > An Industry Leader In Sustainable Design </h3>
                     <br />
                     <p
-                    data-aos="fade-left"
+                    data-aos="fade-up"
                     data-aos-easing="linear"
-                    data-aos-duration="600"
+                    data-aos-duration="400"
                     >Our team has extensive experience in a wide variety of architectural projects 
                         and brings a unique perspective to problem solving.</p>
                         <br />
                     <p
-                    data-aos="fade-left"
+                    data-aos="fade-up"
                     data-aos-easing="linear"
-                    data-aos-duration="700"
+                    data-aos-duration="400"
                     >Possessing a critical balance between field experience, formal education, and technical knowledge, 
                         ensuring the ability to provide client satisfaction on every project</p>
               </div>

@@ -33,15 +33,17 @@ const KnowUs = () => {
                         <div>
                             <p
                                 data-aos="fade-up"
-                                // data-aos-easing="linear"
-                                // data-aos-duration="700"
+                                data-aos-easing="linear"
+                                data-aos-duration="400"
                                 >Our firm is composed of committed professionals who bring their passion 
                                     and the latest design technologies to bear on innovative and sustainable designs.
                             </p>
                         </div>
 
                         <div 
-                            
+                              data-aos="fade-up"
+                              data-aos-easing="linear"
+                              data-aos-duration="400"
                             className={styles["stats"]}>
 
                                 <div className={styles["stats-data"]} >

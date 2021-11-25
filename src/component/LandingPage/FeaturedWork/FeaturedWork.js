@@ -13,23 +13,25 @@ const FeaturedWork = () => {
                 <div className="text">
             
                     <h2 
-                    data-aos="fade-up"
-                    data-aos-easing="linear"
-                    data-aos-duration="500"
-                    > Completed Projects </h2>
+                    
+                    > Have a project in mind? </h2>
 
-                    <div 
-                    data-aos="fade-up"
-                    data-aos-easing="linear"
-                    data-aos-duration="700"
-                    className="block"></div>
+                    
+
+                    <div className='text-action'>
+                        <div> 
+                       <p> Reach out and we can create magic together </p>
+                       </div>
+
+                       <button> WORK WITH US</button>
+                    </div>
                 
                     
                 </div>
 
-                {/* <div>
-                    <img src={House1} alt={House1} />
-                </div> */}
+                <div>
+                    
+                </div>
 
             </section>
         </div>
