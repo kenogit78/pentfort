@@ -1,15 +1,20 @@
 .featured-container {
   
     padding: 2em 4em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
 .featured-container .section-featured {
     display: flex;
     background: #f7fcff;
+    width: 80%;
     padding: 2em;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     box-shadow: 1px 3px 4px 4px rgba(194,194,194,0.78);
     
   }
@@ -17,12 +22,11 @@
 .featured-container .section-featured .text {
     width: 100%;
     text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     
   }
-
-
-
-
 
 .featured-container .text h2 {
     font-size: 2.5em;
@@ -43,15 +47,13 @@
   border-radius: 5px;
   border: none;
   font-family: Ubuntu;
-  font-size: 1em
+  font-size: 1em;
+  cursor: pointer;
   }
 
-  .featured-container .section-featured .text-action {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-   /* width: 100%; */
-  }
+  /* .featured-container .section-featured .text-action {
+   
+  } */
 
   @media screen and (max-width: 868px) {
     .featured-container {
@@ -80,17 +82,16 @@
   font-family: Ubuntu;
   font-size: 0.9em
   }
-
+  .featured-container .section-featured .text {
+    flex-direction: column
+  }
   
 
   }
 
 
   @media screen and (max-width: 568px) {
-    .featured-container .section-featured .text-action {
-      display: flex;
-      flex-direction: column
-    }
+    
 
     .featured-container .section-featured {
       padding: 1em;    

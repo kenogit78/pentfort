@@ -2,7 +2,9 @@ import React, {useState, useEffect } from 'react'
 // import axios from '../../../adapter/axios'
 // import { SliderData } from './SliderData';
 import './ImgSlider.css'
+import { Link } from 'react-router-dom';
 
+import { FaArrowRight } from 'react-icons/fa';
 import { MdOutlineArrowForwardIos, MdOutlineArrowBackIos  } from 'react-icons/md';
 
 import A from '../../../assets/houses/1.jpg';
@@ -136,9 +138,12 @@ const Slider = () => {
 
 
         </div>
-        <div>
-                    <h3>See more</h3>
+        <Link to='/portfolio' className='link'>
+        <div className='more'>
+                    <h3>See more  </h3>
+                    <FaArrowRight />
                 </div>
+                </Link>
 
 
         

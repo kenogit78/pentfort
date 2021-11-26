@@ -15,6 +15,7 @@ import Contact from "./component/Routes/Contact/Contact";
 import AboutUs from "./component/Routes/AboutUs/AboutUs";
 import Portfolio from "./component/Routes/Portfolio/Portfolio";
 import Services from "./component/Routes/Services/Services";
+import ScrollToTop from "./component/ScrollToTop";
 
 
 const override = css`
@@ -55,10 +56,7 @@ function App() {
     (
       <Router>
 
-      {/* <BounceLoader css={LoaderCss} size={24} color='red' loading /> */}
-      
-
-      {/* <BeatLoader css={LoaderCss} size={72} color='yellow' loading /> */}
+        <ScrollToTop />
 
       <Sidebar isOpen={isOpen} toggle={toggle}  />
       <Navbar toggle={toggle}  />
