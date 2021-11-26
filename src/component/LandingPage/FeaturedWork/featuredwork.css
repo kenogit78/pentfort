@@ -16,7 +16,6 @@
     align-items: center;
     text-align: center;
     box-shadow: 1px 3px 4px 4px rgba(194,194,194,0.78);
-    
   }
 
 .featured-container .section-featured .text {
@@ -59,7 +58,7 @@
     .featured-container {
       padding: 2em;
     }
-
+  
     
 
     .featured-container .text h2 {
@@ -91,15 +90,16 @@
 
 
   @media screen and (max-width: 568px) {
-    
-
     .featured-container .section-featured {
-      padding: 1em;    
+      width: 100%;
+      padding: 1em;
+    
     }
 
     
+    
     .featured-container .text h2 {
-      font-size: 1.8em;
+      font-size: 1.5em;
     
     }
 
